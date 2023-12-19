@@ -1,0 +1,11 @@
+{
+  "name": "boilerplate-node-ts",
+  "version": "1.0.0",
+  "description": "Boilerplate project for NodeJS based projects in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tara Chand Kumawat",
+  "license": "MIT"
+}
