@@ -16,7 +16,8 @@
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictNullChecks": false,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "outDir": "dist", // except jt
   },
   "include": ["src/**/*", "test/**/*"]
 }

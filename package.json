@@ -6,12 +6,10 @@
     "npm": "6.14.13",
     "node": "14.17.3"
   },
-  "main": "src/main.ts",
+  "main": "dist/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm run build",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js"
+    "start": "tsc && nodemon dist/src/main.js"
   },
   "repository": {
     "type": "git",
@@ -30,9 +28,8 @@
   },
   "homepage": "https://github.com/tara122333/boilerplate-mern#readme",
   "devDependencies": {
-    "@types/node": "^20.10.5",
-    "nodemon": "^3.0.2",
-    "rimraf": "^5.0.5",
+    "@types/node": "^20.11.5",
+    "nodemon": "^3.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
